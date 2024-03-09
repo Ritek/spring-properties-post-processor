@@ -11,19 +11,17 @@ public class SpringPropertiesPostProcessorApplication {
 	private static String fileProperty2;
 
 	@Value("${property}")
-	public void showProp(String prop) {
+	public void setProp(String prop) {
 		property = prop;
 	}
 	@Value("${file1PropertyName}")
-	public void showProp2(String prop) {
+	public void swtProp2(String prop) {
 		fileProperty1 = prop;
 	}
 	@Value("${file2PropertyName}")
-	public void showProp3(String prop) {
+	public void setProp3(String prop) {
 		fileProperty2 = prop;
 	}
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringPropertiesPostProcessorApplication.class, args);
 

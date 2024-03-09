@@ -10,7 +10,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.env.EnvironmentPostProcessor;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.PropertiesPropertySource;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.util.ResourceUtils;
 
 public class ServerSslPropertiesPostProcessor implements EnvironmentPostProcessor {
